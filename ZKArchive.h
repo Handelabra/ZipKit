@@ -8,9 +8,11 @@
 #import <Foundation/Foundation.h>
 
 /* XXX: Is this the right thing to do here? */
+#ifdef __unsafe_unretained
 #ifdef __weak
 #undef __weak
 #define __weak __unsafe_unretained
+#endif
 #endif
 
 @class ZKCDTrailer;
