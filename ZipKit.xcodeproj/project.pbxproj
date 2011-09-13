@@ -721,6 +721,278 @@
 			};
 			name = Release;
 		};
+		B0878E70141A8CF70016482C /* Debug Ad Free */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = "Debug Ad Free";
+		};
+		B0878E71141A8CF70016482C /* Debug Ad Free */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				INFOPLIST_FILE = "ZipKitFW-Info.plist";
+				INSTALL_PATH = "@rpath//Frameworks";
+				PRODUCT_NAME = ZipKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = "Debug Ad Free";
+		};
+		B0878E72141A8CF70016482C /* Debug Ad Free */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+				);
+				PRODUCT_NAME = zipkit;
+			};
+			name = "Debug Ad Free";
+		};
+		B0878E73141A8CF70016482C /* Debug Ad Free */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = touchzipkit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Ad Free";
+		};
+		B0878E78141A8D020016482C /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Cupcakes;
+		};
+		B0878E79141A8D020016482C /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				INFOPLIST_FILE = "ZipKitFW-Info.plist";
+				INSTALL_PATH = "@rpath//Frameworks";
+				PRODUCT_NAME = ZipKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Cupcakes;
+		};
+		B0878E7A141A8D020016482C /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+				);
+				PRODUCT_NAME = zipkit;
+				ZERO_LINK = NO;
+			};
+			name = Cupcakes;
+		};
+		B0878E7B141A8D020016482C /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = touchzipkit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ZERO_LINK = NO;
+			};
+			name = Cupcakes;
+		};
+		B0878E7C141A8D1F0016482C /* Cupcakes Pro */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = "Cupcakes Pro";
+		};
+		B0878E7D141A8D1F0016482C /* Cupcakes Pro */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				INFOPLIST_FILE = "ZipKitFW-Info.plist";
+				INSTALL_PATH = "@rpath//Frameworks";
+				PRODUCT_NAME = ZipKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = "Cupcakes Pro";
+		};
+		B0878E7E141A8D1F0016482C /* Cupcakes Pro */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+				);
+				PRODUCT_NAME = zipkit;
+				ZERO_LINK = NO;
+			};
+			name = "Cupcakes Pro";
+		};
+		B0878E7F141A8D1F0016482C /* Cupcakes Pro */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = touchzipkit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ZERO_LINK = NO;
+			};
+			name = "Cupcakes Pro";
+		};
+		B0878E80141A8D260016482C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Distribution;
+		};
+		B0878E81141A8D260016482C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				INFOPLIST_FILE = "ZipKitFW-Info.plist";
+				INSTALL_PATH = "@rpath//Frameworks";
+				PRODUCT_NAME = ZipKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Distribution;
+		};
+		B0878E82141A8D260016482C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+				);
+				PRODUCT_NAME = zipkit;
+				ZERO_LINK = NO;
+			};
+			name = Distribution;
+		};
+		B0878E83141A8D260016482C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREFIX_HEADER = ZipKit_Prefix.pch;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = touchzipkit;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ZERO_LINK = NO;
+			};
+			name = Distribution;
+		};
 		CB9B9CB7109F665C003E3F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -802,7 +1074,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB91AE08733DA50010E9CD /* Debug */,
+				B0878E71141A8CF70016482C /* Debug Ad Free */,
 				1DEB91AF08733DA50010E9CD /* Release */,
+				B0878E79141A8D020016482C /* Cupcakes */,
+				B0878E81141A8D260016482C /* Distribution */,
+				B0878E7D141A8D1F0016482C /* Cupcakes Pro */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -811,7 +1087,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,
+				B0878E70141A8CF70016482C /* Debug Ad Free */,
 				1DEB91B308733DA50010E9CD /* Release */,
+				B0878E78141A8D020016482C /* Cupcakes */,
+				B0878E80141A8D260016482C /* Distribution */,
+				B0878E7C141A8D1F0016482C /* Cupcakes Pro */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -820,7 +1100,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB9B9CB7109F665C003E3F8B /* Debug */,
+				B0878E72141A8CF70016482C /* Debug Ad Free */,
 				CB9B9CB8109F665C003E3F8B /* Release */,
+				B0878E7A141A8D020016482C /* Cupcakes */,
+				B0878E82141A8D260016482C /* Distribution */,
+				B0878E7E141A8D1F0016482C /* Cupcakes Pro */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -829,7 +1113,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB9B9CEF109F6769003E3F8B /* Debug */,
+				B0878E73141A8CF70016482C /* Debug Ad Free */,
 				CB9B9CF0109F6769003E3F8B /* Release */,
+				B0878E7B141A8D020016482C /* Cupcakes */,
+				B0878E83141A8D260016482C /* Distribution */,
+				B0878E7F141A8D1F0016482C /* Cupcakes Pro */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
