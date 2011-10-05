@@ -788,6 +788,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = touchzipkit;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Debug Ad Free";
@@ -854,6 +855,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = touchzipkit;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				ZERO_LINK = NO;
 			};
@@ -921,6 +923,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = touchzipkit;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				ZERO_LINK = NO;
 			};
@@ -988,6 +991,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = touchzipkit;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				ZERO_LINK = NO;
 			};
@@ -1046,6 +1050,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = touchzipkit;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1062,6 +1067,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = touchzipkit;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				ZERO_LINK = NO;
 			};
